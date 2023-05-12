@@ -1,0 +1,30 @@
+/* CSS GLOBAL vaRIABLES */
+
+/* To create a variable with global scope, declare it inside the :root selector. 
+The :root selector matches the document's root element. */
+
+
+
+:root {
+    --color-primary: #6c63ff;
+    --color-success: #00bf8e;
+    --color-warning: #f7c94b;
+    --color-danger: #f75842;
+    --color-danger-variant: rgba(247, 88, 66, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.7);
+    --color-black: #000;
+
+    --color-bg: #1f2641;
+    --color-bg1: #2e3267;
+    --color-bg2: #424890;
+
+    /* container length on large devices */
+    --container-width-lg: 80%;
+    /* container length for media queries and for tablets */
+    --container-width-md: 90%;
+    /* container length for media queries and for small mobiles */
+    --container-width-sm: 94%;
+
+    --transition: all 400ms ease-in-out;
+}
